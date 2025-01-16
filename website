@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Walking Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">🐾 Dog Walkers</div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#booking">Book a Walk</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div>
+            <h1>Your Dog’s New Best Friend!</h1>
+            <button class="cta-button">Book a Walk</button>
+        </div>
+    </section>
+
+    <section class="booking-section" id="booking">
+        <h2>Choose Your Walk Duration</h2>
+        <div class="walk-option">
+            <h3>20 Minutes - $15</h3>
+            <p>Perfect for quick energy burns and potty breaks. Ideal for puppies or busy owners.</p>
+        </div>
+        <div class="walk-option">
+            <h3>30 Minutes - $20</h3>
+            <p>A balanced walk to get your dog moving and happy. Great for a midday refresher.</p>
+        </div>
+        <div class="walk-option">
+            <h3>45 Minutes - $30</h3>
+            <p>A longer walk for high-energy dogs or multiple pets. Time for sniffing and exploring.</p>
+        </div>
+        <div class="walk-option">
+            <h3>1 Hour - $40</h3>
+            <p>Ideal for active dogs or owners who want an extended outdoor adventure.</p>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <h2>Completed Walks</h2>
+        <p>We have completed over 500 walks!</p>
+    </section>
+
+    <section class="testimonial-section">
+        <h2>Testimonials</h2>
+        <p>“Great service! My dog loves the walks.” – Dog Owner</p>
+        <button class="review-button">Submit Your Review</button>
+    </section>
+
+    <footer>
+        <p>10% of every booking fee is donated to a local dog charity.</p>
+        <div class="donation-progress">
+            <div class="progress-bar">60% Raised</div>
+        </div>
+        <p>Follow us on social media!</p>
+    </footer>
+</body>
+
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f4f4f9;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: url('path/to/your/park-image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking-section {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.walk-option {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 400px;
+}
+
+.stats-section {
+    background-color: #f1f1f1;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonial-section {
+    padding: 2rem;
+    background-color: #e8f6f9;
+    text-align: center;
+}
+
+footer {
+    padding: 1rem 2rem;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.donation-progress {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.review-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
